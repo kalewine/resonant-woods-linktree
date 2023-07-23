@@ -21,13 +21,19 @@ h1 {
     margin-bottom: 2rem;
 }
 
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 8vw;
+    }
+}
+
 .featured-track {
     margin-bottom: 2.5rem;
-    -ms-transform: scale(0.75);
-    -moz-transform: scale(0.75);
-    -o-transform: scale(0.75);
-    -webkit-transform: scale(0.75);
-    transform: scale(0.75);
+    -ms-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -o-transform: scale(0.85);
+    -webkit-transform: scale(0.85);
+    transform: scale(0.85);
 }
 
 .button-links {
@@ -66,5 +72,6 @@ a h2 {
 
 a img {
     margin-left: 1.25rem;
-
+    height: 40px;
+    width: 40px;
 }
