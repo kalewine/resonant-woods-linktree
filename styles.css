@@ -73,12 +73,13 @@ a img {
 @media only screen and (max-width: 600px) {
     h1 {
         font-size: 15vw;
+        margin-top: 2rem;
         margin-bottom: 1.5rem;
     }
 
     .featured-track {
+        margin-top: 0rem;
         margin-bottom: 2.5rem;
-        margin-top: 2.5rem;
     }
 
     a {
